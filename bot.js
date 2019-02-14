@@ -20,7 +20,7 @@ const gif = require("gif-search");
 
 const client = new Discord.Client({disableEveryone: true});
 
-const prefix = "5";
+const prefix = "Y";
 /////////////////////////
 ////////////////////////
 
@@ -337,7 +337,7 @@ client.on('message', message => {
         .addField('avatar', "افاتار الشخص المطلوب")
         .addField('gif', 'البحث عن جيف انت تطلبه')
         .addField('ping', 'معرفة ping البوت')
-        .setFooter('عرب سيرفر سيقوم بتطوير البوت قريبا ان شاء الله')
+        .setFooter('**وتم صنع البوت من قبل ياسين**')
       message.channel.send(helpEmbed);
     }
 });
@@ -349,7 +349,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`5play | Arab Server,`,"http://twitch.tv/ Arab Server")
+client.user.setGame(`ياسين قلك غني ,`,"http://twitch.tv/ Arab Server")
 client.user.setStatus("dnd")
 });
 
